@@ -1,0 +1,33 @@
+{
+  "name": "@nora-soderlund/cloudflare-router",
+  "version": "0.9.0",
+  "type": "module",
+  "description": "Yet another... Cloudflare router package.",
+  "main": "app/build/index.js",
+  "scripts": {
+    "build": "npx tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nora-soderlund/cloudflare-router.git"
+  },
+  "keywords": [
+    "cloudflare",
+    "worker",
+    "router"
+  ],
+  "author": "Nora Söderlund",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nora-soderlund/cloudflare-router/issues"
+  },
+  "homepage": "https://github.com/nora-soderlund/cloudflare-router#readme",
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20231218.0",
+    "@types/jest": "^29.5.11",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "@cfworker/json-schema": "^1.12.7"
+  }
+}
